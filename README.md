@@ -18,7 +18,9 @@ I was first inspired to make this robot arm after watching [this video](https://
   <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/s1.png" width="500" />
 </p>
 
-After coming up with this design, I switched over to CAD modeling in SOLIDWORKS, which is better suited for creating real-life components, and with which I have much more experience. Based on dimensions given in the YouTube video's description, I was able to model each individual part of the robot and combine them into a complete SOLIDWORKS assembly, simulating the look and behavior of the robot arm. By importing additional parts such as Servo Motors and the Arduino Uno, I was able to ensure that the internal components of the robot would fit inside it, and that there were no interferences between components. 
+After coming up with this design, I switched over to CAD modeling in SOLIDWORKS, which is better suited for creating real-life components, and with which I have much more experience. Based on dimensions given in the YouTube video's description, I was able to model each individual part of the robot and combine them into a complete SOLIDWORKS assembly, simulating the look and behavior of the robot arm. By importing additional pre-made parts such as Servo Motors and the Arduino Uno, I was able to ensure that the internal components of the robot would fit inside it, and that there were no interferences between components. 
+
+DISCLAIMER: The assembly file that I have uploaded to this repository is a minimal version that can be built using only the parts I created. Please contact me if you would like a complete version that includes these additional parts.
 
 <p align="center">
   <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/robot_design.png" width="800" />
