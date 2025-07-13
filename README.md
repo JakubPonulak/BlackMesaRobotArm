@@ -52,7 +52,7 @@ Once the physical components were assembled, I moved on to wiring. I was fortuna
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1IjUJEja0Yv61JHg0KjAD3Q2Ghb71W-9r/view?usp=sharing">
-    <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/vid_img.png" width="300">
+    <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/vid_img2.png" width="300">
   </a>
 </p>
 
