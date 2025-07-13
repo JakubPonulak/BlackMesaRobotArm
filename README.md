@@ -5,7 +5,9 @@
 # Black Mesa Robot Arm
 This is the GitHub repository for the Black Mesa Hazardeous Material Manipulation Device, a small robot arm powered by an Arduino Uno microcontroller, which can be operated through keyboard inputs via Bluetooth. The purpose of this project was to utilize my knowledge of mechanical, electrical, and software engineering into a working device with a practical purpose.
 
-(insert image of robot arm)
+<p align="center">
+  <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/robot_main.png" width="500" />
+</p>
 
 The name of the robot, along with its design and decorative elements, come from the iconic video game "Half-Life", which was groundbreaking at the time of its release and has heavily impacted the FPS genre. Specifically, the robot name and design are a reference to the Black Mesa Research Facility, a fictional laboratory complex and research center which is the setting of the game. This game is a personal favorite of mine, and its aesthetic and theme fit perfectly into this project.
 
@@ -40,11 +42,17 @@ Once all of my 3D-printed parts and mechanical / eletrical components arrived in
 
 There were also some design flaws that I had failed to notice when first designing the parts for the robot arm. For example, some of the parts of the robot have cutouts for the servo motor wires, and I had underestimated how much space these wires would take up, especially at the base of the arm, where 4 sets of wires had to squeeze through a small opening. I ended up enlargening this cutout with a cordless drill, and I made sure to adjust the CAD file to match this adjustment if I was ever to reprint that specific part in the future. 
 
-(images of before and after for base support)
+<p align="center">
+  <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/compare.png" width="500" />
+</p>
 
-Once the physical components were assembled, I moved on to wiring. I was fortunate to find online guides detailing how to wire the PCA9685 to the Arduino, as well as instructions for connecting the HC05 Bluetooth module, which required a simple voltage divider that I assembled on a compact breadboard. However, during my first test, I encountered a major problem. Due to the limited space in the robot arm’s base, a short circuit occurred between the On/Off switch and the PCA9685 board. This short damaged the main ground wire and destroyed the female DC power adapter that connected the arm to my power supply. After a lot of troubleshooting and rewiring, I managed to resolve these issues, and the robot arm finally operated as intended:
+Once the physical components were assembled, I moved on to wiring. I was fortunate to find online guides detailing how to wire the PCA9685 to the Arduino, as well as instructions for connecting the HC05 Bluetooth module, which required a simple voltage divider that I assembled on a compact breadboard. However, during my first test, I encountered a major problem. Due to the limited space in the robot arm’s base, a short circuit occurred between the On/Off switch and the PCA9685 board. This short damaged the main ground wire and destroyed the female DC power adapter that connected the arm to my power supply. After a lot of troubleshooting and rewiring, I managed to resolve these issues, and the robot arm finally operated as intended. Below is a video of the robot arm in action (click the image to access the link).
 
-(insert video of grapping usb)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1IjUJEja0Yv61JHg0KjAD3Q2Ghb71W-9r/view?usp=sharing">
+    <img src="https://github.com/JakubPonulak/BlackMesaRobotArm/blob/main/Images/vid_img.png" width="300">
+  </a>
+</p>
 
 ## Conclusion
 This project gave me the opportunity to apply my engineering knowledge in a practical setting while exposing me to real-world challenges that engineers face daily. It allowed me to develop my mechanical, electrical, and software skills in a hands-on and rewarding way. I highly recommend this type of project to anyone passionate about Mechanical Engineering who wants to gain valuable, multidisciplinary experience.
