@@ -105,6 +105,8 @@ Once you have all the components, 3D-printed parts, and the necessary code files
   <img src="https://lastminuteengineers.com/wp-content/uploads/arduino/Wiring-HC05-Bluetooth-Module-to-Arduino-Software-UART.png" width="300" />
 </p>
 
+**Important Note**: Both the PCA9685 servo driver and the HC-05 Bluetooth module require a 5V power supply, and the Arduino Uno only has one 5V output pin. To power both modules at the same time, you’ll need to use a breadboard or a splitter to distribute the 5V line from the Arduino to both the PCA9685 and the HC-05. Be sure to also connect their grounds (GND) together with the Arduino’s GND to ensure a common reference voltage. 
+
 5. Plug the USB-A cable into your robot and computer. This is how you will upload your code to the Arduino Uno itself.
 6. Unplug the RX and TX wires (green and blue in the diagram) from the Arduino, as we cannot upload the code while they are connected.
 7. Upload the Arduino code to the microcontroller in the Arduino IDE, then unplug the USB-A cable and reconnect the RX and TX wires.
